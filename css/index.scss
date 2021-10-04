@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+$console-back: #1E1E1E;
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.console {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #FFFFFF;
+  background-color: $console-back;
+  border-radius: 5px;
+  .carsol {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .text {
+    display: inline-block;
+    vertical-align: top;
+    p {
+      margin: auto;
+    }
+    a{
+      color: #FFFFFF;
+    }
+  }
+}
