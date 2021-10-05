@@ -14,12 +14,10 @@ body {
 }
 
 .console .carsol {
-  display: inline-block;
   vertical-align: top;
 }
 
 .console .text {
-  display: inline-block;
   vertical-align: top;
 }
 
