@@ -11,6 +11,15 @@ body {
   color: #FFFFFF;
   background-color: #1E1E1E;
   border-radius: 5px;
+  font-weight: bold;
+}
+
+.console .prompt {
+  color: #24D48C;
+}
+
+.console .file {
+  color: #3B8EEA;
 }
 
 .console .carsol {

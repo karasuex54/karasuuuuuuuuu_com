@@ -1,5 +1,4 @@
 function hex2rgb(hex) {
-  // https://www.yoheim.net/blog.php?q=20171007
   let r = hex.match(/^#([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i)
   let c = null
   if (r) {
@@ -26,3 +25,4 @@ function CarsolChange() {
 }
 
 setInterval(CarsolChange, 1000);
+

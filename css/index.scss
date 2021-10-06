@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 $console-back: #1E1E1E;
+$console-prompt: #24D48C;
+$console-file: #3B8EEA;
 
 body {
   margin-left: auto;
@@ -15,6 +17,14 @@ body {
   color: #FFFFFF;
   background-color: $console-back;
   border-radius: 5px;
+  font-weight: bold;
+  //min-height: 400px;
+  .prompt {
+    color: $console-prompt;
+  }
+  .file {
+    color: $console-file;
+  }
   .carsol {
     vertical-align: top;
   }
