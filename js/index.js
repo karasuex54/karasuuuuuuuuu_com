@@ -1,3 +1,10 @@
+function allClearTimeout() {
+  let id = window.setTimeout(function() {}, 0);
+  while (id--) {
+    window.clearTimeout(id);
+  }
+}
+
 function hex2rgb(hex) {
   let r = hex.match(/^#([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
   let c = null;
@@ -29,6 +36,7 @@ function carsolChange() {
 }
 
 function typeLike(param) {
+  allClearTimeout();
   let el = document.querySelector(param.el);
   el.textContent = "";
   let speed = 100;
