@@ -8,18 +8,18 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
-  color: #FFFFFF;
-  background-color: #1E1E1E;
+  color: #ffffff;
+  background-color: #1e1e1e;
   border-radius: 5px;
   font-weight: bold;
 }
 
 .console .prompt {
-  color: #24D48C;
+  color: #24d48c;
 }
 
 .console .file {
-  color: #3B8EEA;
+  color: #3b8eea;
 }
 
 .console .carsol {
@@ -35,6 +35,31 @@ body {
 }
 
 .console .text a {
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.console #ls-text > spam {
+  cursor: hand;
+  cursor: pointer;
+}
+
+.console #ls-text .t1:hover {
+  color: #3b8eea;
+}
+
+.console #ls-text .t2:hover {
+  color: #3b8eea;
+}
+
+.console #ls-text .t3:hover {
+  color: #3b8eea;
+}
+
+.console #ls-text .t4:hover {
+  color: #3b8eea;
+}
+
+#detail {
+  min-height: 500px;
 }
 /*# sourceMappingURL=index.css.map */

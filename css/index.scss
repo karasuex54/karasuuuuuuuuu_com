@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-$console-back: #1E1E1E;
-$console-prompt: #24D48C;
-$console-file: #3B8EEA;
+$console-back: #1e1e1e;
+$console-prompt: #24d48c;
+$console-file: #3b8eea;
 
 body {
   margin-left: auto;
@@ -14,11 +14,10 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: $console-back;
   border-radius: 5px;
   font-weight: bold;
-  //min-height: 400px;
   .prompt {
     color: $console-prompt;
   }
@@ -33,8 +32,30 @@ body {
     p {
       margin: auto;
     }
-    a{
-      color: #FFFFFF;
+    a {
+      color: #ffffff;
     }
   }
+  #ls-text {
+    & > spam {
+      cursor: hand;
+      cursor: pointer;
+    }
+    .t1:hover {
+      color: $console-file;
+    }
+    .t2:hover {
+      color: $console-file;
+    }
+    .t3:hover {
+      color: $console-file;
+    }
+    .t4:hover {
+      color: $console-file;
+    }
+  }
+}
+
+#detail {
+  min-height: 500px;
 }
