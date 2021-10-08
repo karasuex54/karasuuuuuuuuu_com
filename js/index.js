@@ -39,8 +39,8 @@ function typeLike(param) {
   allClearTimeout();
   let el = document.querySelector(param.el);
   el.textContent = "";
-  let speed = 100;
   let string = param.string.split("");
+  let speed = 200 / string.length;
   string.forEach((char, index) => {
     setTimeout(() => {
       el.textContent += char;
