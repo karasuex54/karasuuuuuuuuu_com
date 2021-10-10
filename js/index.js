@@ -60,21 +60,24 @@ function typeLike(param) {
 
 let commands = [
   {
+    number: 0,
     el: "#ls-command",
     string: "commands",
     el_text: "#ls-text",
     text_html: `<spam class="t1" onclick="typeLike(commands[1])">Whoami</spam>&nbsp;&nbsp;
     <spam class="t2" onclick="typeLike(commands[2])">Education</spam>&nbsp;&nbsp;
     <spam class="t3" onclick="typeLike(commands[3])">Internship</spam>&nbsp;&nbsp;
-    <spam class="t4" onclick="typeLike(commands[4])">Sns</spam>`,
+    <spam class="t4" onclick="typeLike(commands[4])">Sns</spam>&nbsp;&nbsp;`,
   },
   {
+    number: 1,
     el: "#detail-command",
     string: "Whoami",
     el_text: "#detail-text",
     text_html: `Name：Syumpei Karasuyama`,
   },
   {
+    number: 2,
     el: "#detail-command",
     string: "Education",
     el_text: "#detail-text",
@@ -83,6 +86,7 @@ let commands = [
     <p>Bachelor of Mathematical Information Science, The University of Electro-Communications<br>2016.04 - 2020.03</p>`,
   },
   {
+    number: 3,
     el: "#detail-command",
     string: "Internship",
     el_text: "#detail-text",
@@ -93,6 +97,7 @@ let commands = [
     <p>e-Seikatsu Co., Ltd.<br>2020.08</p>`,
   },
   {
+    number: 4,
     el: "#detail-command",
     string: "Sns",
     el_text: "#detail-text",
@@ -119,6 +124,14 @@ let commands = [
       target="_blank"
       rel="noopener noreferrer"
       >karasuex54</a
+    ></p>
+    <br>
+    <p>Blog(hatena) :
+    <a
+      href="https://karasuex54.hatenablog.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >karasuex54</a
     ></p>`,
   },
 ];
@@ -126,7 +139,3 @@ let commands = [
 window.onload = function () {
   typeLike(commands[0]);
 };
-
-function test() {
-  window.alert("aiueo");
-}
